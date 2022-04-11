@@ -3,10 +3,10 @@ on:
   workflow_dispatch:
   #pull_request:
   #  branches:
-  #    - master
+  #    - main
   #push:
   #  branches:
-  #    - master
+  #    - main
   #  tags:
   #    - '*'
 
@@ -51,7 +51,7 @@ jobs:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: ${{ secrets.AWS_REGION }}
-    - uses: abhilash1in/aws-secrets-manager-action@v2.0.0
+    - uses: bitovi/github-actions-aws-secrets-manager@v2.0.0
       with:
         secrets: 'my_secret*'
         parse-json: true
