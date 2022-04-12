@@ -1,12 +1,11 @@
 # AWS Secrets Manager GitHub Action
-[![Tests](https://github.com/bitovi/github-actions-aws-secrets-manager/actions/workflows/tests.yml/badge.svg)](https://github.com/bitovi/github-actions-aws-secrets-manager/actions/workflows/tests.yml)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bitovi/github-actions-aws-secrets-manager/blob/main/LICENSE)
 
 GitHub Action to fetch secrets from AWS Secrets Manager and inject them as environment variables into your GitHub Actions workflow. 
 
 The injected environment variable names will only contain upper case letters, digits and underscores. It will not begin with a digit. 
 
-If your secret name contains any characters other than upper case letters, digits and underscores, it will not be used directly as the environment variable name. Rather, it will be transformed into a string that only contains upper case letters, digits and underscores. 
+If your secret name contains any characters other than upper case letters, digits and underscores, it will not be used directly as the environment variable name. Rather, it will be transformed into a string that only contains upper case letters, digits and underscores.  A Warning will be displayed in the output when this occurs.
 
 For example:
 - If your secret name is `dev.foo`, the injected environment variable name will be `DEV_FOO`.
@@ -126,3 +125,8 @@ We would love for you to contribute to [`@bitovi/github-actions-aws-secrets-mana
 
 ## License
 The scripts and documentation in this project are released under the [MIT License](https://github.com/bitovi/github-actions-aws-secrets-manager/blob/main/LICENSE).
+
+This has been modified from https://github.com/abhilash1in/aws-secrets-manager-action.
+
+## Provided by Bitovi
+[Bitovi](https://www.bitovi.com/) is a proud supporter of Open Source software.
