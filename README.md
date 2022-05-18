@@ -134,4 +134,4 @@ This has been modified from https://github.com/abhilash1in/aws-secrets-manager-a
 ## Need help?
 Bitovi has consultants that can help.  Drop into [Bitovi's Community Slack](https://www.bitovi.com/community/slack), and talk to us in the `#devops` channel!
 
-Need DevOps Consulting Services?  Head over to https://www.bitovi.com/devops-consulting, and book a free consultation.
+Need DevOps Consulting Services?  Head over to [https://www.bitovi.com/devops-consulting](https://hubs.ly/Q01bFvL70), and book a free consultation.
