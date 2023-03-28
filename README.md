@@ -25,7 +25,7 @@ steps:
     aws-region: ${{ secrets.AWS_REGION }}
 
 - name: Read secrets from AWS Secrets Manager into environment variables
-  uses: bitovi/github-actions-aws-secrets-manager@v2.0.0
+  uses: bitovi/github-actions-aws-secrets-manager@v2.1.0
   with:
     secrets: |
       my_secret_1
