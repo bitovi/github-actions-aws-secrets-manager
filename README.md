@@ -132,6 +132,6 @@ This has been modified from https://github.com/abhilash1in/aws-secrets-manager-a
 [Bitovi](https://www.bitovi.com/) is a proud supporter of Open Source software.
 
 ## Need help or have questions?
-You can **get help or ask questions** on [Discord channel](https://discord.gg/J7ejFsZnJ4)! Come hangout with us!
+You can **get help or ask questions** on [Discord channel](https://discord.gg/zAHn4JBVcX)! Come hangout with us!
 
 Or, you can hire us for training, consulting, or development. [Set up a free consultation](https://www.bitovi.com/devops-consulting).
