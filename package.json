@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/bitovi/github-actions-aws-secrets-manager#readme",
   "dependencies": {
-    "@actions/core": "^1.2.6",
+    "@actions/core": "^1.9.1",
     "aws-sdk": "^2.792.0"
   },
   "devDependencies": {
