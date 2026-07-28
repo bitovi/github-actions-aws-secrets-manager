@@ -28,7 +28,7 @@
   "homepage": "https://github.com/bitovi/github-actions-aws-secrets-manager#readme",
   "dependencies": {
     "@actions/core": "^1.2.6",
-    "aws-sdk": "^2.792.0"
+    "aws-sdk": "^2.1693.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.7.0",
